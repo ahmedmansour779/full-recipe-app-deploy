@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/full-recipe-app-deploy/static/css/main.8d06646c.css",
+    "main.js": "/full-recipe-app-deploy/static/js/main.4a869a27.js",
+    "static/media/photo-1552566626-52f8b828add9.jpg": "/full-recipe-app-deploy/static/media/photo-1552566626-52f8b828add9.62370a7edea9f5532375.jpg",
+    "static/media/background.png": "/full-recipe-app-deploy/static/media/background.4e3ca5843e09a9f5b08b.png",
+    "index.html": "/full-recipe-app-deploy/index.html",
+    "main.8d06646c.css.map": "/full-recipe-app-deploy/static/css/main.8d06646c.css.map",
+    "main.4a869a27.js.map": "/full-recipe-app-deploy/static/js/main.4a869a27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d06646c.css",
+    "static/js/main.4a869a27.js"
+  ]
+}
