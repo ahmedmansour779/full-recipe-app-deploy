@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    background: #FFF8D6;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #345226;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.to-top {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    background-color: #345226;
+    bottom: 2rem;
+    right: 2rem;
+    border: 1px solid #FFF8D6;
+    color: #FFF8D6;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+    z-index: 5;
+}
+
+.to-top:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .ContactUsForm,
+    .ContactUsText {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .section-in-header {
+        width: 100% !important;
+        margin-top: 2rem !important;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
